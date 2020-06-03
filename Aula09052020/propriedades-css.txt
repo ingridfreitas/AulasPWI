@@ -1,0 +1,33 @@
+-> Para texto:
+color: Muda a cor do texto na exibição.
+font-size: Muda o tamanho da letra.
+font-weight: Muda o peso e/ou a intesificação da fonte.
+font-family: Define a Família da fonte
+text-align: Define a posição da fonte.
+text-decoration: Define a formatação do texto.
+line-height: Deine o espaçameto entre as linhas
+font-style: Estilo da fonte.
+
+-> layout:
+background: Caixa de texto em volta do nosso texto.
+margin: A margem do nosso documento.
+padding: Espaço entre o conteúdo e a borda de um elemento
+position: posição do texto.
+display: Controla o layout.
+top: Acima
+bottom: Abaixo
+left: Esquerda
+right: Direita
+height: Altura
+width: Largura
+float: Tira do lado "normal" e coloca onde você quiser.
+border: Borda
+
+-> listas:
+list-style: Estilo de uma lista.
+
+-> unidades
+px -> pixels: Tamanho de um elemento por pixels, mas ele varia dependendo do tamanho da tela.
+pt -> pontos: Tamanho de um elemento por pontos.
+% -> porcentagem: É relacionado com o bloco onde o elemento está contido e é mais usado com imagens.
+em -> tamanho padrão: Usado na maioria para definir o tamanho da fonte, porque ele não varia.
