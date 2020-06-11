@@ -4,6 +4,10 @@
         <meta charset = "UTF-8">
         <title>Receitas Salgadas </title>
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
             h1{
                 font-size: 45px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,20 +16,94 @@
             }
             h5{
                 font-size: 40px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                color:#f3828c;
+                font-family: serif;
+                color:#ff0077;
+                text-align: center;
+                padding: 15px;
+            }
+            a{
+                color: #ff01ea;
+                text-decoration: none;
+            }
+            li{
+                margin-left: 172px;
+                font-size: 25px;
+            }
+            header{
+                position: sticky;
+                top: 0;
+            }
+            body{
+                font-size: 12px;
+                background-color:#b279e7 ;
+                width: 100%;
+                height: 100%;
+                font-family: sans-serif;
+            }
+            .topo{
+                background-color: #ffffff;
+                height: 110px;
+                text-align: center;
+            }
+            .espaco-logo{
+                height: 150px;
+                float: left;
+                padding: 5px;
+            }
+            #imagem{
+                height: 70%;
+                width: 25px auto;
+            }
+            #name{
+                font-size: 50px;
+                color: #b279e7;
+                font-family: serif;
+                margin: 25px auto;
+                text-align: center;
+                display: inline-block;
+            }
+            .barra{
+                background-color: #630091;
+                height: 20px;
+            }
+            .card{
+                background-color: #ffffff;
+                border-radius: 10px;
+                padding: 25px;
+                margin-top: 15px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .lin{
+                background-color: #ffffff;
+                color:#630091;
                 text-align: center;
             }
         </style>
     </head>
     <body>
-        <h1>Receitas Salgadas</h1>
-        <h5>Escolha uma das seguintes opções: </h5>
-        <ul>
-            <li><a href="strogonoff.html">Strogonoff de Frango </a></li>
-        </ul> 
-        <img src="../img/coxinha.gif" alt="Coxinha Dançante">
+        <header>
+            <div class="topo">
+                <h1 id="name">Receitas da Formiguinha</h1>
+                <div class="espaco-logo">
+                    <img id="imagem" src="../img/logo2.jpg" alt="logo da página">
+                </div>
+            </div>
+            <div class="barra"></div>
+        </header>
+        <div class="card">
+            <h1>Receitas Salgadas</h1>
+        </div>
+        <div class="card">
+            <h5>Escolha uma das seguintes opções: </h5>
+            <ul>
+                <li><a href="strogonoff.html">Strogonoff de Frango </a></li>
+            </ul> 
+        </div>
+        <div class="card">
+            <img src="../img/coxinha.gif" alt="Coxinha Dançante">
+        </div>
         <br/>
-        <p><a href="../index.html"> Voltar à Página Inicial</a></p>
+        <p class="lin"><a class="lin" href="../index.html"> Voltar à Página Inicial</a></p>
     </body>
 </html>

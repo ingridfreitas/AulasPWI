@@ -4,29 +4,107 @@
         <meta charset = "UTF-8">
         <title>Receitas Doces</title>
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
             h1{
                 font-size: 45px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
-                color: #422902;
+                color: #ff01ea;
                 text-align: center;
             }
             h5{
-                font-size: 40px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                color: #fff48c;
+                font-size: 41px;
+                font-family: serif;
+                color: #ff0077;
+                text-align: center;
+                padding: 15px;
+            }
+            body{
+                font-size: 12;
+                font-family: sans-serif;
+                background-color: #b279e7;
+                width: 100%;
+                height: 100%;
+            }
+            header{
+                position: sticky;
+                top: 0;
+            }
+            a{
+                color: #ff01ea;
+                text-decoration: none;
+            }
+            li{
+                margin-left: 172px;
+                font-size: 25px;
+            }
+            .topo{
+                text-align: center;
+                height: 110px;
+                background-color: #ffffff;
+            }
+            .espaco-logo{
+                width: 150px;
+                float: left;
+                padding: 5px;
+            }
+            #imagem{
+                width: 70%;
+                height: auto;
+            }
+            #name{
+                color: #b279e7;
+                font-family: serif;
+                margin: 25px auto;
+                display:inline-block;
+                font-size: 50px;
+                text-align: center;
+            }
+            .barra{
+                height: 20px;
+                background-color: #630091;
+            }
+            .card{
+                background-color: #ffffff;
+                border-radius: 10px;
+                margin-top: 15px;
+                padding: 25px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .lin{
+                background-color: #ffffff;
+                color: #630091;
                 text-align: center;
             }
         </style>
     </head>
     <body>
-        <h1>Receitas Doces</h1>
-        <h5>Escolha uma das seguintes opções:</h5>
-        <ul>
-            <li><a href="bolo.html">Bolo Vulcão de Cenoura e Chocolate</a></li>
-        </ul>
+        <header>
+            <div class="topo">
+                <div class="espaco-logo">
+                    <img id="imagem" src="../img/logo2.jpg" alt="logo da página">
+                </div>
+                <h1 id="name">Receitas da Formiguinha</h1>
+            </div>
+            <div class="barra"></div>
+        </header>
+        <div class="card">
+            <h1>Receitas Doces</h1>
+        </div>
+        <div class="card">
+            <h5>Escolha uma das seguintes opções:</h5>
+            <ul>
+                <li><a href="bolo.html">Bolo Vulcão de Cenoura e Chocolate</a></li>
+            </ul>
+        </div>
+        <div class="card">
         <br/>
-        <img src="../img/animacaodoce.gif" alt="Gif de Doce">
+            <img src="../img/animacaodoce.gif" alt="Gif de Doce">
+        </div>
         <br/>
-        <p><a href="../index.html"> Voltar a página Incial:</a></p>
+        <p class="lin"><a class="lin" href="../index.html"> Voltar a página Incial:</a></p>
     </body>
 </html>
