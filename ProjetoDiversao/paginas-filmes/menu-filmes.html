@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Filmes || MOViiES</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                font-size: 19px;
+                background-color: #ff0062;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                height: 100%;
+            }
+            header{
+                position: sticky;
+                top: 0;
+            }
+            h1{
+                text-align: center;
+                color: #ff06b4;
+                font-size: 50px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            li{
+                font-size: 25px;
+                margin-left: 172pt;
+            }
+            a{
+                text-decoration: none;
+                color: #ff0062;
+            }
+            .topo{
+                background-color: #ffffff;
+                text-align: center;
+                height: 110px;
+            }
+            .espaco-logo{
+                width: 150px;
+                padding: 5px;
+                float: left;
+            }
+            .barra{
+                height: 20px;
+                background-color: #000000;
+            }
+            .card{
+                background-color: #ffffff;
+                border-radius: 15px;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 15px;
+                padding: 25px;
+            }
+            .epicentro{
+                text-align: center;
+            }
+            #imagem{
+                width: 120%;
+                height: auto;
+            }
+            #name{
+                color: #ff0062;
+                font-family: serif;
+                margin: 25px auto;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                <div class="espaco-logo">
+                    <img id="imagem" src="../img/logo.png" alt="logo da página">
+                </div>
+                <h1 id="name">MOViiES</h1>
+            </div>
+            <div class="barra"></div>
+        </header>
+        <div class="card">
+            <h1>Escolha o Gênero: </h1>
+            </br>
+            </br>
+            <ul>
+                <li><a href="../paginas-filmes/herois/lista-herois.html">Heróis</a></li>
+                <li><a href="../paginas-filmes/comedia/lista-comedia.html">Comédia</a></li>
+                <li><a href="../paginas-filmes/animacao/lista-animacao.html">Animação</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="epicentro">
+                <img src="../img/filmes/gif_inicial.gif" alt="gif inicial">
+                </br>
+                </br>
+                <p><a href="../index.html">Voltar à Página Inicial</a></p>
+            </div>
+        </div>
+    </body>
+</html>
