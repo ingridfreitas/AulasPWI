@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sobre o Desenvolvedor</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font-size: 20;
+                font-family: sans-serif;
+                background-color: #b279e7;
+                width: 100%;
+                height: 100%;
+                color: #f70067;
+            }
+            header{
+                position: sticky;
+                top: 0;
+            }
+            .topo{
+                text-align: center;
+                height: 110px;
+                background-color: #ffffff;
+            }
+            .espaco-logo{
+                width: 150px;
+                float: left;
+                padding: 5px;
+            }
+            #imagem{
+                width: 70%;
+                height: auto;
+            }
+            #name{
+                color: #b279e7;
+                font-family: serif;
+                margin: 25px auto;
+                display:inline-block;
+                font-size: 50px;
+                text-align: center;
+            }
+            .barra{
+                height: 20px;
+                background-color: #630091;
+            }
+            .card{
+                background-color: #ffffff;
+                border-radius: 10px;
+                margin-top: 15px;
+                padding: 25px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .container{
+                max-width: 960px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #ffffff ;
+            }
+            .name{
+                text-align: center;
+                color: #f70067;
+            }
+            .barra-principal{
+                background-color: #630091;
+                height: 100px;
+                width: 100%;
+                position: static;
+                top: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .foto{
+                position: absolute;
+                width: 150px;
+                margin-left: 100px;
+            }
+            .foto img{
+                width: 100%;
+                border-radius: 50%;
+            }
+            .nome-desenvolvedor{
+                padding: 30px;
+                margin-left: 250px;
+            }
+            .nome-desenvolvedor h1{
+                font-size: 35px;
+                color: #ffffff;
+            }
+            .dados-desenvolvedor{
+                margin-top: 100px;
+                border-left: 10px solid #f70067;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+            .dados-tabela{
+                padding: 10px;
+                padding-bottom: 15px;
+            }
+            .dados-tabela a{
+                padding-left: 15px;
+                padding-bottom: 5px;
+                text-decoration: none;
+                color: #630091;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                <div class="container">
+                    <div class="espaco-logo">
+                        <img id="imagem" src="img/logo2.jpg" alt="logo da página">
+                    </div>
+                    <h1 id="name">Receitas da Formiguinha</h1>
+                </div>
+            </div>
+            <div class="barra"></div>
+        </header>
+        <div class="card">
+            <h1 class="name">Sobre a Desenvolvedora</h1>
+        </div>
+        <div class="card">
+            <div class="barra-principal">
+                <div class="foto">
+                    <img src="img/desenvolvedora.jpeg" alt="Imagem da Desenvolvedora">
+                </div>
+                <div class="nome-desenvolvedor">
+                    <h1>Ingrid Heloise Santos Freitas</h1>
+                </div>
+            </div>
+            <div class="dados-desenvolvedor">
+                <table class="dados-tabela">
+                    <tr>
+                        <td><img src="img/school.png" alt="Icone Escola"></td>
+                        <td><a>Técnica em Desenvolvimento de Sistemas Integrado ao Ensino Médio</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/email.png" alt="Icone Email"/></td>
+                        <td><a href="mailto: ingrid.freitas@etec.sp.gov.br">ingrid.freitas@etec.sp.gov.br</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/github.png" alt="Icone Github"></td>
+                        <td><a href="https://github.com/ingridfreitas" target="_blank">https://github.com/ingridfreitas</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/city.png" alt="Icone Cidade"></td>
+                        <td><a>Lençóis Paulista / SP</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
