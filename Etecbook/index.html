@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EtecBook</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #profile {
+                background-image: url(img/back.jpg);
+                height: auto;
+                width: 100%;
+                position: static;
+                padding-top: 5px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            #profile img{
+                border-radius: 50%;
+                width: 200px;
+                padding: 5px;
+            }
+            #profile h1{
+                text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+                color: #ffffff;
+            }
+            #container{
+                background-color: #ffffff;
+                max-width: 960px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            body{
+                background-color: #0f0065;
+                width: 100%;
+                height: 100%;
+                font-size: 20px;
+                color: #0000ff;
+            }
+            .card{
+                background-color: #ffffff;
+                padding: 15px;
+                border-radius: 15px;
+                width: 40%;
+                float: right;
+                margin-top: 15px;
+                margin: 15px;
+            }
+            .card2{
+                background-color: #ffffff;
+                padding: 25px;
+                border-radius: 10px;
+                width: 40%;
+                float: left;
+                margin-top: 15px;
+                padding-right: 15px;
+                margin: 15px;
+            }
+            .dados{
+                border-left: 10px solid #f70067;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+            .dados td{
+                padding: 5px;
+            }
+            .dados a{
+                color: #f70067;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            header{
+                top: 0;
+                position: sticky;
+            }
+            .topico{
+                font-size: 40px;
+                color: #630091;
+            }
+            .topo{
+                text-align: center;
+                height: 120px;
+                background-color: #ffffff;
+            }
+            .topo h1{
+                color: #0000ff;
+                font-size: 50px;
+                text-align: center;
+                top: 0;
+                display: inline-block;
+            }
+            .espaco-logo{
+                width: 150px;
+                padding: 5px;
+                height: 10px;
+            }
+            .espaco-logo img{
+                width: 70%;
+                height: auto;
+                border-radius: 50%;
+                margin-left: 300px;
+            }
+            #pink{
+                color: #f70067;
+            }
+            .barra{
+                background-color: #f70067;
+                height: 20px;
+            }
+            p{
+                font-size: 18px;
+                color: #000000;
+            }
+            .pub{
+                padding: 25px;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .espaco{
+                padding-left: 100px;
+            }
+            .menu{
+                background-color: #ffffff;
+                list-style: none;
+                float: left;
+                width: 100%;
+                text-align: center;
+                height: 40px;
+                border-bottom: solid #ffff00;
+            }
+            .menu a{
+                text-decoration: none;
+                font-size: 25px;
+                color: #0000ff;
+            }
+            .menu li{
+                display: inline;
+                padding: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="topo">
+                    <div class="espaco-logo">
+                        <img src="img/logo.png" alt="Logo da Página">
+                    </div>
+                    <h1>Etec</h1><h1 id="pink">Book</h1>
+                </div>
+            </div>
+            <div class="barra"></div>
+        </header>
+        <div id="profile">
+            <img src="img/desenvolvedora.jpeg" alt="Imagem do Perfil">
+            <h1>Ingrid Heloise dos Santos Freitas</h1>
+        </div>
+        <div class="barra"></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="timeline.html">Linha do Tempo</a></li>
+                <li><a href="amigos.html">Amigos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div class="card2">
+                <h1 class="topico">Apresentação</h1>
+            </br>
+                <table class="dados">
+                    <tr>
+                        <td><img src="img/school.png" alt="Icone Escola"></td>
+                        <td><a>Técnica em Desenvolvimento de Sistemas Integrado ao Ensino Médio</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/email.png" alt="Icone Email"/></td>
+                        <td><a href="mailto: ingrid.freitas@etec.sp.gov.br">ingrid.freitas@etec.sp.gov.br</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/github.png" alt="Icone Github"></td>
+                        <td><a href="https://github.com/ingridfreitas" target="_blank">https://github.com/ingridfreitas</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/city.png" alt="Icone Cidade"></td>
+                        <td><a>Lençóis Paulista / SP</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card">
+                <h1 class="topico">Publicações</h1>
+            </div>
+            <div class="card">
+                <h3>Ingrid Heloise Santos Freitas</h3>
+                <p><strong>13/07/2020 10:31 </strong></p>
+                <p class="pub">Sejam Bem-Vindos à Minha Página!!</p>
+                <table class="like">
+                    <tr>
+                        <td class="espaco"><img src="img/like.png" alt="Ícone Curtida"></td>
+                        <td>Curtir</td>
+                        <td class="espaco"><img src="img/comment.png" alt="Ícone Comentar"></td>
+                        <td>Comentar</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
