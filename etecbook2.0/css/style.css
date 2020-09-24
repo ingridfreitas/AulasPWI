@@ -1,0 +1,38 @@
+.perfil {
+    background-image: url(../img/loki.jpg);
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    margin-top: -150px;
+    width: 200px;
+}
+
+.es-link {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+body{
+    background: #99f3ff;
+}
+.nav-link{
+    font-weight: bold;
+}
+.img-feed{
+    border-radius: 50%;
+    width: 40px;
+}
+.data-feed{
+    font-size: 12px;
+}
+.actions{
+    font-weight: bold;
+    font-size: 18px;
+}
+.actions i{
+    padding: 4px;
+}
