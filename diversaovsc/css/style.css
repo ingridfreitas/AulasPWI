@@ -9,10 +9,7 @@
     z-index: 3;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-    height: 32rem;
-}
+
 
 .carousel-item>img {
     position: absolute;
@@ -48,9 +45,6 @@
     color: #ffffff;
     padding-left: 5px;
 }
-.row col img{
-    width: 100px;
-}
 .time{
     font-size: 13px;
     text-align: right;
@@ -66,4 +60,34 @@ h3{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     height: 35px;
+} 
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item>img {
+    height: 32rem;
+}
+@media(max-width: 600px){
+    .carousel-item>img {
+        height: 20rem;
+    }
+}
+@media(max-width: 415px){
+    .carousel-item>img{
+        height: 15rem;
+    }
+}
+@media(max-width:600px) and (min-width: 414px){
+    .carousel-item {
+        height: 20rem;
+    }
+}
+@media(max-width: 415px) and (min-width: 58px){
+    .carousel-item{
+        height: 15rem;
+    }
+}
+.card{
+    width: 90%;
+    max-height: 1025px;
 }
