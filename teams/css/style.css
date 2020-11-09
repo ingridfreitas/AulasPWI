@@ -1,0 +1,8 @@
+.form-inline{
+    display: flexbox;
+    width: 150px;
+}
+.navbar img{
+    border-radius: 50%;
+    height: 45px;
+}
