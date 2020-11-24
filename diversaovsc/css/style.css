@@ -91,3 +91,13 @@ h3{
     width: 90%;
     max-height: 1025px;
 }
+.temas{
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.central{
+    padding-right: 250px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
