@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #ff0000;
+    color: #ffffff;
+    min-height: 90px;
+}
+.navbar img{
+    height: 70px;
+    width: auto;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+.navbar span{
+    font-size: 30px;
+}
+.botoes{
+    margin-top: 100px;
+}
+.btn{
+    min-width: 200px;
+    padding: 10px;
+}
