@@ -18,6 +18,15 @@
     min-width: 100%;
     height: 32rem;
 }
+.alert{
+    display: flex;
+    justify-content: space-between;
+}
+.bloco p{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: left;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -35,6 +44,10 @@
 .card-img-top {
     /* COLOQUE AQUI A ALTURA QUE DESEJA */
     height: 200px;
+}
+.card{
+    margin-left: 25px;
+    margin-bottom: 5px;
 }
 .navbar{
     text-align: center;
@@ -71,10 +84,35 @@ h3{
     .carousel-item>img {
         height: 20rem;
     }
+    .btn{
+        margin: 2px;
+    }
+    .bloco{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .bloco p{
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    .central{
+        text-align: center;
+        padding: 0;
+    }
+    .alert{
+        padding: 0.4rem 0.2rem;
+    }
 }
 @media(max-width: 415px){
     .carousel-item>img{
         height: 15rem;
+    }
+    .alert{
+        display: block;
+    }
+    .bloco p{
+        text-align: center;
     }
 }
 @media(max-width:600px) and (min-width: 414px){
@@ -96,8 +134,9 @@ h3{
     padding-bottom: 35px;
     padding-top: 10px;
 }
-.central{
-    padding-right: 250px;
-    font-size: 20px;
-    margin-bottom: 0;
+.blank{
+    color: #ffffff;
+}
+.black{
+    color: #000000;
 }
