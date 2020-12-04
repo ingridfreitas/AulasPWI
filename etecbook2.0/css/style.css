@@ -36,3 +36,15 @@ body{
 .actions i{
     padding: 4px;
 }
+#card{
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+#pass{
+    background-color: #00eeff;
+}
