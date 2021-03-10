@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ainda não Sei</title>
+</head>
+
+<body>
+    <table border="solid">
+        <tr>
+            <td>Dia</td>
+            <td>Mês</td>
+            <td>Ano</td>
+            <td>Hora</td>
+            <td>Minutos</td>
+            <td>Segundos</td>
+            <td>Dia da Semana</td>
+        </tr>
+        <tr>
+            <td onmouseover="dia()" id="day"></td>
+            <td onmouseover="mes()" id="month"></td>
+            <td onmouseover="ano()" id="year"></td>
+            <td onmouseover="hora()" id="hour"></td>
+            <td onmouseover="minuto()" id="minute"></td>
+            <td onmouseover="segundo()" id="second"></td>
+            <td onmouseover="semana()" id="week"></td>
+        </tr>
+    </table>
+    <script>
+        function dia(){
+            var dia = new Date()
+            var day = dia.getDate();
+            document.getElementById('day').innerHTML = day;
+        }
+        function mes(){
+            var mes = new Date()
+            var month = mes.getMonth();
+            document.getElementById('month').innerHTML = month;
+        }
+        function ano(){
+            var ano = new Date()
+            var year = ano.getFullYear();
+            document.getElementById('year').innerHTML = year;
+        }
+        function semana(){
+            var semana = new Date()
+            var week = semana.getDay();
+            if(week = 0){
+                week = Domingo
+            };
+            if(week = 1){
+                week = Segunda
+            };
+            if(week = 2){
+                week = Terça
+            }
+            if(week = 3){
+                week = Quarta
+            }
+            if(week = 4){
+                week = Quinta
+            }
+            if(week = 5){
+                week = Sexta
+            }
+            if(week = 6){
+                week = Sábado
+            }
+            document.getElementById('week').innerHTML = week;
+        }
+        function hora(){
+            var hora = new Date()
+            var hour = hora.getHours();
+            document.getElementById('hour').innerHTML = hour;
+        }
+        function minuto(){
+            var minuto = new Date()
+            var hour = minuto.getMinutes();
+            document.getElementById('minute').innerHTML = hour;
+        }
+        function segundo(){
+            var segundo = new Date()
+            var second = segundo.getSeconds();
+            document.getElementById('second').innerHTML = second;
+        }
+    </script>
+</body>
+
+</html>
