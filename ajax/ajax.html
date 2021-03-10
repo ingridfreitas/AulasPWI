@@ -26,7 +26,7 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-md-9">
-                    <label for="logradouro">Rua</label>
+                    <label for="rua">Rua</label>
                     <input type="text" class="form-control" id="rua" placeholder="Rua da cidade">
                 </div>
                 <div class="form-group col-md-3">
@@ -41,7 +41,7 @@
                 </div>
                 <div class="form-group col-md-4">
                     <label for="cidade">Cidade</label>
-                    <input type="text" class="form-control" id="complemento">
+                    <input type="text" class="form-control" id="cidade">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="estado">Estados: </label>
@@ -89,37 +89,15 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
         </script>
     <script>
-        /*$('#cep').blur(function () {
-            var cepFormat = $('#cep').val().replaceAll('.', '').replaceAll('-', '');
-            if (cepFormat != '') {
-                $.ajax({
-                    url: ('viacep.com.br/ws/' + cepformat + '/json/')}).done(function(retornoAjax){
-                    console.log('Retorno Ajax', retornoAjax);
-                    if(!retornoAjax.erro){
-                        $('#rua').val(retornoAjax.logradouro);
-                        $('#numero').focus();
-                        $('#bairro').val(retornoAjax.bairro);
-                        $('#cidade').val(retornoAjax.localidade);
-                        $('#estado').val(retornoAjax.uf);
-                    }
-                    else{
-                        alert("CEP não encontrado");
-                    }
-                })
-            }
-            else{
-                alert("CEP inválido!!!");
-            }
-        });*/
         $('#cep').blur(function () {
-            var cepFormatado = $('#cep').val().replaceAll('.', '').replaceAll('-', '');
+            var cepFormatado = $('#cep').val().replaceAll('-', '');
             if (cepFormatado != '') {
-                $.ajax({
+                $('#cep').ajax({
                     url: 'https://viacep.com.br/ws/' + cepFormatado + '/json/'
                 }).done(function (retonoAjax) {
                     console.log('Retorno da Ajax', retonoAjax);
                     if (!retonoAjax.erro) {
-                        $('#logradouro').val(retonoAjax.logradouro);
+                        $('#rua').val(retonoAjax.logradouro);
                         $('#bairro').val(retonoAjax.bairro);
                         $('#cidade').val(retonoAjax.localidade);
                         $('#estado').val(retonoAjax.uf);

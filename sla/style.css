@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.red{
+    cursor: pointer;
+    color: #ffffff;
+    border: #ff0000 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0000;
+}
+.blue{
+    cursor: pointer;
+    color: #ffffff;
+    border: #0000ff 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #0000ff;
+}
+.green{
+    cursor: pointer;
+    color: #ffffff;
+    border: #00ff00 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00ff00;
+}
+.pink{
+    cursor: pointer;
+    color: #ffffff;
+    border: #ff0040 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0040;
+}
+.black{
+    cursor: pointer;
+    color: #ffffff;
+    border: #000000 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+}
+.oi{
+    cursor: pointer;
+    color: #ff00aa;
+    border: #ff00aa 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+.btns{
+    justify-content: center;
+    text-align: center;
+}
+.change{
+    background-color: #ff0040;
+    color: #ffffff;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+h2{
+    margin-bottom: 10px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    display: inline-block;
+    padding-left: 10px;
+}
+#enviar{
+    cursor: pointer;
+    color: #ff00aa;
+    border: #685d64 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+.botoes{
+    cursor: pointer;
+    color: #ff00aa;
+    border: #685d64 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+}
