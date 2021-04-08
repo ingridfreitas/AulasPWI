@@ -18,3 +18,7 @@ function fonte5(){
     var verdana = document.getElementById("fontes")
     verdana.style.fontFamily ='Verdana, Geneva, Tahoma, sans-serif'
 }
+function mut(){
+    var ii = document.querySelector('button')
+    ii.style.backgroundColor = '#ca0087'
+}

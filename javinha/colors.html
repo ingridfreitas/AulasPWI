@@ -16,26 +16,70 @@
         }
         button{
             border-radius: 5px;
-            height: 40px;
             padding: 5px;
+            color: #ffffff;
+            height: 45px;
+            width: 110px;
+            text-align: center;
+        }
+        #vermelho{
+          background-color: #ff0000;
+          border: solid 1px #bd0000;
+        }
+        #azul{
+          background-color: #0000ff;
+          border: solid 1px #000096;
+        }
+        #verde{
+          background-color: #00ff00;
+          border: solid 1px #009e00;
+        }
+        #rosa{
+          background-color: #fc77aa;
+          border: solid 1px #a74d70;
+        }
+        #roxo{
+          background-color: #b600bd;
+          border: solid 1px #76007a;
+        }
+        #ouro{
+          background-color: #a9ac09;
+          border: solid 1px #7a7c09;
+        }
+        #dark{
+          background-color: #170035;
+          border: solid 1px #000000;
+        }
+        #pool{
+          background-color: #6efff3;
+          border: solid 1px #45a19a;
+        }
+        #bblue{
+          background-color: #1100fc;
+          border: solid 1px #0c00b3;
+        }
+        #ggreen{
+          background-color: #1d6800;
+          border: solid 1px #164d01;
         }
     </style>
   </head>
   <body id="corpo">
     <script src="js/colors.js"></script>
-    <h1 id="texto">Colors</h1>
+    <h1>Colors</h1>
+    <h3 id="texto">Ingrid é D+</h3>
     <h4>Cores para a fonte: </h4>
-    <button onclick="fontred()">Vermelho</button>
-    <button onclick="fontblue()">Azul</button>
-    <button onclick="fontgreen()">Verde</button>
-    <button onclick="fontpink()">Rosa</button>
-    <button onclick="fontpurple()">Roxo</button>
+    <button id="vermelho" onclick="fontred()" onmouseover="tvm()" onmouseout="vm()">Vermelho</button>
+    <button id="azul" onclick="fontblue()" onmouseover="taz()" onmouseout="az()">Azul</button>
+    <button id="verde" onclick="fontgreen()" onmouseover="tvd()" onmouseout="vd()">Verde</button>
+    <button id="rosa" onclick="fontpink()" onmouseover="trs()" onmouseout="rs()">Rosa</button>
+    <button id="roxo" onclick="fontpurple()" onmouseover="trx()" onmouseout="rx()">Roxo</button>
     <h4>Cores de Fundo: </h4>
-    <button onclick="backdark()">Dark</button>
-    <button onclick="backgold()">Ouro</button>
-    <button onclick="backpool()">Azul Piscina</button>
-    <button onclick="backblue()">Azul</button>
-    <button onclick="backgreendark()">Verde Escuro</button>
+    <button id="dark" onclick="backdark()" onmouseover="tbd()" onmouseout="bd()">Dark</button>
+    <button id="ouro" onclick="backgold()" onmouseover="tgd()" onmouseout="gd()">Ouro</button>
+    <button id="pool" onclick="backpool()" onmouseover="tap()" onmouseout="ap()">Azul Piscina</button>
+    <button id="bblue" onclick="backblue()"onmouseover="tbb()" onmouseout="bb()">Azul</button>
+    <button id="ggreen" onclick="backgreendark()" onmouseover="tgg()" onmouseout="gg()">Verde Escuro</button>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
